@@ -401,13 +401,22 @@ const AboutSection = () => {
               className="space-y-4"
             >
               <p className="text-muted-foreground leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Hi! I'm Natanael, a computer science student at Newcastle University. I'm passionate about
+                coding, web development, data, software, and building projects that combine both creativity
+                and functionality. I enjoy learning new technologies and experimenting with different ways
+                to solve problems efficiently.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p className='text-muted-foreground leading-relaxed'>
+                Over the years, I've worked on a variety of projects, from interactive portfolio websites to 
+                automation systems and data analysis tools. I enjoy using Python, Java TypeScript, and React
+                to bring ideas to life. Each project teaches me somethig new, whether it's improving my coding 
+                practices, design sense, or problem-solving skills.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              <p className='text-muted-foreground leading-relaxed'>
+                Beyond coding, I love badminton, staying active, and exploring new experiences. I thirve on 
+                challenges and enjoy collaborating with others to bring ideas  to reality. My goal is to continue
+                building impactful projects that showcase both my technical skills and creativity while growing as
+                a developer and learner.
               </p>
             </motion.div>
           </div>
