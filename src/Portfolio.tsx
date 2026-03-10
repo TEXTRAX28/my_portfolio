@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion, useScroll, useTransform, useInView, AnimatePresence } from 'framer-motion';
+import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { 
   Github, 
   Linkedin, 
@@ -26,7 +26,6 @@ import {
   BarChart3,
   FileCode,
   BookOpen,
-  MessageSquare,
   Sparkles
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
