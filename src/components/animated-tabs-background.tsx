@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useRef, useId, ReactElement, Children } from "react";
+import { useState, useRef, useId, Children } from "react";
+import type { ReactElement } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
