@@ -34,6 +34,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { LoadingOverlay } from './components/loading-overlay';
 
 interface Project {
   title: string;
@@ -1351,19 +1352,21 @@ const Footer = () => {
 
 const PortfolioWebsite = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <AnimatedBackground />
-      <Navigation />
-      <HeroSection />
-      <AboutSection />
-      <TechStackSection />
-      <ExperienceSection />
-      <ProjectsSection />
-      <CertificationsSection />
-      <SkillsSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <LoadingOverlay>
+      <div className="min-h-screen bg-background text-foreground">
+        <AnimatedBackground />
+        <Navigation />
+        <HeroSection />
+        <AboutSection />
+        <TechStackSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <CertificationsSection />
+        <SkillsSection />
+        <ContactSection />
+        <Footer />
+      </div>
+    </LoadingOverlay>
   );
 };
 
