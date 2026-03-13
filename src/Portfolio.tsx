@@ -34,7 +34,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
-import { LoadingOverlay } from './components/loading-overlay';
+import { LoadingOverlay } from '@/components/loading-overlay';
+import { CleanMotionBackground } from "@/components/animated-tabs-background";
 
 interface Project {
   title: string;
@@ -177,19 +178,20 @@ const Navigation = () => {
           Natan's Portfolio
         </motion.div>
 
-        <div className="hidden md:flex items-center gap-8">
+      <div className="hidden md:flex items-center gap-8">
+        <CleanMotionBackground>
           {navItems.map((item) => (
-            <motion.button
+            <button
               key={item}
+              data-key={item}
               onClick={() => scrollToSection(item)}
-              className="text-muted-foreground hover:text-foreground transition-colors"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
+              className="px-4 py-2 text-muted-foreground hover:text-foreground transition-colors"
             >
               {item}
-            </motion.button>
+            </button>
           ))}
-        </div>
+        </CleanMotionBackground>
+      </div>
 
         <Button
           variant="ghost"
