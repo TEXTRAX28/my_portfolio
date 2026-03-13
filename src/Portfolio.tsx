@@ -408,7 +408,7 @@ const AboutSection = () => {
               </p>
               <p className='text-muted-foreground leading-relaxed'>
                 Over the years, I've worked on a variety of projects, from interactive portfolio websites to 
-                automation systems and data analysis tools. I enjoy using Python, Java TypeScript, and React
+                automation systems and data analysis tools. I enjoy msotly using Python and a few others such as SQL, Java, C, and many more 
                 to bring ideas to life. Each project teaches me somethig new, whether it's improving my coding 
                 practices, design sense, or problem-solving skills.
               </p>
@@ -595,12 +595,12 @@ const ExperienceSection = () => {
       logo: "/newcastle_uni.png"
     },
     {
-      title: "Sport Secretary",
-      organization: "Indonesian Society Newcastle",
+      title: "Head of Tech Management and Stage",
+      organization: "Discovery Indonesia x The Changcuters",
       responsibilities: [
-        "Organized sports competitions and social activities.",
-        "Managed event logistics and venue bookings.",
-        "Strengthened community engagement among Indonesian students."
+        "Led stage and techinal operations for a live performance by one of the most popular band from Indonesia, The Changcuters.",
+        "Supervised techincal crew and volunteers, ensuring smooth rehearsals, timely stage transitions, and high quality production.",
+        "Troubleshot and resolved live event techincal challenges in real time, maintaining seamless performance for the audience."
       ],
       icon: <Target className="w-6 h-6" />,
       logo:"/discovery_indonesia.png"
