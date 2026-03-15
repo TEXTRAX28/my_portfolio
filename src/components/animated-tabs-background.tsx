@@ -35,7 +35,7 @@ export const CleanMotionBackground = ({
     return (
       <div
         className={cn("relative flex gap-2", className)}
-        onMouseLeave={() => updateActive(null)} // clear only when leaving the container
+        onMouseLeave={() => updateActive(null)}
       >
         {Children.map(children, (child: ReactElement<any>, idx) => {
           const keyAttr = child.props["data-key"];
